@@ -5,8 +5,8 @@
 library(ggplot2) # ggplot
 
 # Load data
-wn <- read.csv("west-nile_canada_2002-2019.csv",
-                header = TRUE, stringsAsFactors = FALSE) # load data from working directory
+wn <- read.csv("https://raw.githubusercontent.com/jeanpaulrsoucy/west-nile-canada/master/west-nile_canada_2002-2019.csv",
+                header = TRUE, stringsAsFactors = FALSE) # load data from GitHub
 
 # Set most recent update date for data
 date_current <- "2019-10-26"
